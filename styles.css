@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 10px;
+    position: fixed;
+    background-color: rgb(59, 59, 190);
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+ nav ul{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: beige;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: rgb(223, 127, 44);
+}
+
+
+
+
+
+
+
+
+
+.f{
+   
+    color: rgb(237, 232, 232);
+    background: #000;
+    height: 60px;   
+    text-align: center;
+   
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 0 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .book {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .book img {
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+  .book-details {
+    flex-grow: 1;
+  }
+  
+  .book-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .book-author {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .book-price {
+    font-weight: bold;
+  }
+  
+  .book-description {
+    margin-bottom: 10px;
+  }
+
+  .container{
+    padding: 90px;
+  }

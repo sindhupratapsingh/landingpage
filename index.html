@@ -1,0 +1,75 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          
+            <div class="logo"><p>My Page</p></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+      <h1>Welcome to the Book Market</h1>
+  
+      <div class="book">
+        <img src="{% static 'img/landing.png' %}" alt="Book 1">
+        <div class="book-details">
+          <h2 class="book-title">The Fashion Book </h2>
+          <p class="book-author">By sundr pk singh</p>
+          <p class="book-price">₹1,342.00</p>
+          <p class="book-description">The time when "fashion" was defined by French designers whose clothes could be afforded only by elite has ended. Now designers take their cues from mainstream consumers and creativity is channeled</p>
+        </div>
+      </div>
+  
+      <div class="book">
+        <img src="{% static 'img/landing1.png' %}" alt="Book 2">
+        <div class="book-details">
+          <h2 class="book-title">The End of Fashion</h2>
+          <p class="book-author">By Teri Agins </p>
+          <p class="book-price">₹1,342.00</p>
+          <p class="book-description">The time when "fashion" was defined by French designers whose clothes could be afforded only by elite has ended. Now designers take their cues from mainstream consumers and creativity is channeled</p>
+        </div>
+      </div>
+
+      <div class="book">
+        <img src="{% static 'img/landing.png' %}" alt="Book 2">
+        <div class="book-details">
+          <h2 class="book-title">Book 2 Title</h2>
+          <p class="book-author">By mr. HR</p>
+          <p class="book-price">₹1,242.00</p>
+          <p class="book-description">The time when "fashion" was defined by French designers whose clothes could be afforded only by elite has ended. Now designers take their cues from mainstream consumers and creativity is channeled</p>
+        </div>
+      </div>
+  
+      <!-- Add more book listings here -->
+  
+    </div>
+
+    
+
+
+
+
+    <footer>
+       <div class="f">
+        <p>&copy; 2023. All rights reserved.</p>
+       </div>
+    </footer>    
+    
+
+</body>
+</html>
